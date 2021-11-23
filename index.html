@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="shortcut icon" href="background.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <style>
+        body{
+            margin: 3%;
+            background-image: url("704025.jpg");
+            background-size: cover;      
+        }
+        .image img{
+            
+            float:right;
+            width: 25% ;
+            height: 25%;
+            margin-right: 1%;
+            border-bottom:1px solid whitesmoke;
+            border-radius: 8%;
+        }
+        .text{
+            text-shadow: 2px 2px 2px black;
+            transition-property: background-color;
+            transition-duration: 3s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out;
+            width: fit-content;
+        }
+        .text:hover{
+            background-color: lightblue;
+        }
+        span{
+            color: orangered;
+            text-shadow: 1.5px 1.5px 1.5px limegreen;
+        }
+        .paragraph{
+            float: left;
+            color:royalblue;
+            text-shadow:2px 2px 2px whitesmoke;
+            font-size: larger;
+            width: 50%;
+            padding: 5%;
+            transition-property: background-color;
+            transition-duration: 4s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        .paragraph:hover{
+            background-color: thistle;
+        }
+        .paragraph2{
+            float: inline-start;
+            color:coral;
+            text-shadow:1px 1px 1px rgb(0, 83, 236);
+            width: 50%;
+            padding: 2%;
+        margin-left: 2%;
+        transition-property: background-color;
+        transition-duration: 4s;
+        transition-delay: 1s;
+        transition-timing-function: ease-in-out;        
+    }
+        .paragraph2:hover{
+            background-color: darkseagreen;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-link " target="_blank" href="information.pdf">Contact</a>
+            <a class="flex-sm-fill text-sm-center nav-link" target="_blank" href="https://blaselight.github.io/sakib-portfolio">Portfolio One</a>
+            <a class="flex-sm-fill text-sm-center nav-link" target="_blank" href="https://blaselight.github.io/sakib-portfolio2">Portfolio Two</a>
+            <a class="flex-sm-fill text-sm-center nav-link" target="_blank" href="https://blaselight.github.io/experiment2">Experiment Website</a>
+
+            <a class="flex-sm-fill text-sm-center nav-link " target="_blank" href="sakibresume.pdf">Resume</a>
+          </nav>
+    </div>
+    <div class="text">
+        <h1>Welcome to <br> <span>Nazmus</span>  Portfolio</h1>
+    </div>
+    <div class="image">
+        <img src="IMG20211028193828.jpg" alt="Sakib-image">
+    </div>
+    <div class="paragraph">
+        <h1>About <span>My self</span> </h1>
+        <p>I'm 24,lives in Rajshahi.Currently I'm completing Honours degree.My subject is English and Literature.To establish a second identity I'm learing web development.Although its an experiment Portfolio.</p>
+    </div>
+    <div class="paragraph2">
+        <p>To me learing anything is interesting if that has a value in market. Though web development is kind of hard but it also interesting.</p>
+        <ul>There are some facts that I followed most of the time.
+            <li>Early to bed early to rise makes a man healthy,wealthy and wise</li>
+            <li>Anything excess is poison</li>
+            <li>Starts early,drive slowly and reach safely</li>
+        </ul>
+    </div>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
